@@ -40,7 +40,8 @@ sky_ros_package_template/     # Root folder defines the name of a Catkin package
 
 1. Create new Github repo using this as template, and clone in to `sky_ws/src`.
 2. Rename `your_pkg/src/ros_python_pkg/`  to  `your_pkg/src/your_pkg/`.
-3. Configuration: Need to edit the following files:
+3. Change the path for sky_utils in git submodules.
+4. Configuration: Need to edit the following files:
     - `package.xml`      : Edit package name, description, author, etc. Add `<depend>` tags as necessary to link to other Catkin packages.
     - `CMakeLists.txt`   : Edit package name. Need to add package dependencies here as well; same ones as in `package.xml`.
     - `requirements.txt` : Edit if this package requires any Pip packages which are not available as standard ROS dependencies; delete if not.
