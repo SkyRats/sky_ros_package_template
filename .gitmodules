@@ -1,3 +1,4 @@
 [submodule "src/sky_ros_package_template/sky_utils"]
 	path = src/sky_ros_package_template/sky_utils
 	url = git@github.com:SkyRats/sky_utils.git
+	brach = main
