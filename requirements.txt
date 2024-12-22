@@ -1,0 +1,8 @@
+# format -> package_name==version
+# Example:
+dronekit==2.9.2
+mavproxy==1.8.67
+numpy==1.24.4
+pyzbar==0.1.9
+
+
